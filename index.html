@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Chicago Bears Trivia Game</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Verdana" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    
+  
+</head>
+
+<body>
+    
+
+    
+    <div class="row start-game">
+    
+        <div class="container">
+        
+            <div class="row">
+                <h1>Chicago Bears Trivia Game</h1>
+            </div>
+
+            <div class="row">
+            
+                <div class="col-md-7">
+                    <button id="start">Start</button>
+                </div>
+                
+                <div class="col-md-5">
+                    <img src="assets/images/bearslogo.png" id="bears">
+                </div>
+            
+            </div>
+        
+        </div>         
+    
+    </div>
+
+     
+
+    <div class="questions">
+
+        <div class="container">
+
+            <div class="row">
+                <h1>Chicago Bears Trivia Game</h1>
+            </div>
+
+            <div class="row">
+                <h3>Time Remaining</h3>
+            </div>
+
+            <div class="row" id="timer">
+                <h3>60</h3>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-9">
+                   
+                    <form id="form">
+
+                        <div class="formquestion1">
+                            <h4>1. The Bears' franchise joined the APFA (American Professional Football Association, then later NFL) in 1920 in what city?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question1" value="Buffalo">Buffalo</label>
+                            <label class="answers">
+                                <input type="radio" name="question1" value="Rochester">Rochester</label>
+                            <label class="answers">
+                                <input type="radio" name="question1" value="Decatur">Decatur</label>
+                            <label class="answers">
+                                <input type="radio" name="question1" value="Dayton">Dayton</label>
+                        </div>
+
+                        <div class="formquestion2">
+                            <h4>2. The 1985 Bears went to the Super Bowl. Who was their QB?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question2" value="Kenney">Bill Kenney</label>
+                            <label class="answers">
+                                <input type="radio" name="question2" value="Stabler">Ken Stabler</label>
+                            <label class="answers">
+                                <input type="radio" name="question2" value="Jones">Bert Jones</label>
+                            <label class="answers">
+                                <input type="radio" name="question2" value="McMahon">Jim McMahon</label>
+                        </div>
+
+                        <div class="formquestion3">
+                            <h4>3. Which Bear Head Coach won the most career games with the team?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question3" value="Halas">George Halas</label>
+                            <label class="answers">
+                                <input type="radio" name="question3" value="Dooley">Jim Dooley</label>
+                            <label class="answers">
+                                <input type="radio" name="question3" value="Ditka">Mike Ditka</label>
+                            <label class="answers">
+                                <input type="radio" name="question3" value="Pardee">Jack Pardee</label>
+                        </div>
+
+                        <div class="formquestion4">
+                            <h4>4. Who was the first Bears' running back to rush for 1000 yards in a season?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question4" value="Payton">Walter Payton</label>
+                            <label class="answers">
+                                <input type="radio" name="question4" value="Feathers">Beattie Feathers</label>
+                            <label class="answers">
+                                <input type="radio" name="question4" value="Sayers">Gale Sayers</label>
+                            <label class="answers">
+                                <input type="radio" name="question4" value="Arnett">Jon Arnett</label>
+                        </div>
+
+                        <div class="formquestion5">
+                            <h4>5. Which of these QBs never played for the Bears?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question5" value="Blanda">George Blanda</label>
+                            <label class="answers">
+                                <input type="radio" name="question5" value="Gabriel">Roman Gabriel</label>
+                            <label class="answers">
+                                <input type="radio" name="question5" value="Erik">Erik Kramer</label>
+                            <label class="answers">
+                                <input type="radio" name="question5" value="Zeke">Zeke Bratkowski</label>
+                        </div>
+
+                        <div class="formquestion6">
+                            <h4>6. Who was the first Bear to lead the NFL in scoring for a season?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question6" value="Manders">Jack Manders</label>
+                            <label class="answers">
+                                <input type="radio" name="question6" value="Mac">Mac Percival</label>
+                            <label class="answers">
+                                <input type="radio" name="question6" value="Kevin">Kevin Butler</label>
+                            <label class="answers">
+                                <input type="radio" name="question6" value="Walter">Walter Payton</label>
+                        </div>
+
+                        <div class="formquestion7">
+                            <h4>7. Which Bears' running back entered the Hall of Fame in 1963?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question7" value="Nevers">Ernie Nevers</label>
+                            <label class="answers">
+                                <input type="radio" name="question7" value="Lenny">Lenny Moore</label>
+                            <label class="answers">
+                                <input type="radio" name="question7" value="Lawrence">Lawrence Taylor</label>
+                            <label class="answers">
+                                <input type="radio" name="question7" value="Bronko">Bronko Nagurski</label>
+                        </div>
+
+                        <div class="formquestion8">
+                            <h4>8. Which Bear QB retired as the career passing yards leader?</h4>
+                            <label class="answers">
+                                <input type="radio" name="question8" value="Jim">Jim McMahon</label>
+                            <label class="answers">
+                                <input type="radio" name="question8" value="Harbaugh">Jim Harbaugh</label>
+                            <label class="answers">
+                                <input type="radio" name="question8" value="Concannon">Jack Concannon</label>
+                            <label class="answers">
+                                <input type="radio" name="question8" value="Sid">Sid Luckman</label>
+                        </div>
+
+                    </form>
+            
+                </div>
+
+                
+
+                <div class="col-md-2">
+                    <img src="assets/images/bearslogo.png" alt="logo">
+                </div>
+
+            </div>
+        
+            <div class="row">
+                <button id="submit">SUBMIT</button>
+            </div>
+                   
+        </div>
+
+    </div>
+
+
+    
+    <div class="stop-game">
+    
+        <div class="container">
+                   
+            <div class="row">
+                <h1>ALL DONE!</h1>
+            </div>
+
+            <div class="row" id="scoretable">
+                <table>
+                    <tr>
+                        <td class="score">CORRECT:</td>
+                        <td id="correct"><h5>0</h5></td>
+                    </tr>
+                    <tr>
+                        <td class="score">INCORRECT:</td>
+                        <td id="incorrect"><h5>0</h5></td>
+                    </tr>
+                    <tr>
+                        <td class="score">UNANSWERED:</td>
+                        <td id="unanswered"><h5>8</h5></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="row" id="playagain">
+                <button>PLAY AGAIN</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
